@@ -1,3 +1,8 @@
 module.exports = function multiply(first, second) {
-  // your solution
+  
+  const bigFirst =  BigInt(first);
+  const bigSecond = BigInt(second);
+  result = bigFirst * bigSecond;
+  console.log(`${result}`)
+  return `${result}`;
 }
